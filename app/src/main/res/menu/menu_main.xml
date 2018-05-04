@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.daisy.hellomyworld.MainActivity">
+    <item
+        android:id="@+id/action_chart"
+        android:orderInCategory="100"
+        android:title="Charts"
+        app:showAsAction="never" />
+    <!--<item-->
+        <!--android:id="@+id/action_clr"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="clear all"-->
+        <!--app:showAsAction="never" />-->
+
+</menu>

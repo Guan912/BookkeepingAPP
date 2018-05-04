@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    >
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+    <!--<TextView-->
+        <!--android:id="@+id/tv_id"-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:gravity="center"-->
+        <!--android:singleLine="true"-->
+        <!--android:textSize="20sp"-->
+        <!--android:ellipsize="marquee"-->
+        <!--android:text="costID"/>-->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:ellipsize="marquee"
+
+        android:text="costTitle"/>
+    
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="15dp"
+        android:layout_toRightOf="@+id/tv_title"
+        android:text="costDate"
+        />
+    <TextView
+        android:id="@+id/tv_cost"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/tv_date"
+        android:textSize="20sp"
+        android:text="costmoney"
+        android:layout_alignParentRight="true"
+        />
+
+    <!--<Button-->
+        <!--android:id="@+id/bt_del"-->
+        <!--android:layout_width="20dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_toRightOf="@+id/tv_cost"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:text="del" />-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_del"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@id/tv_ldel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:text="删 除 记 录"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@id/tv_lcancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:text="取 消"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</RelativeLayout>
