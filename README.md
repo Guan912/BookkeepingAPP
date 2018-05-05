@@ -1,11 +1,10 @@
 # BookkeepingAPP
 *A simple APP on Android ,for self use.*
-<br>Refrence: **imooc.com**
-<br>The final result:
-<br>
-效果图 | 添加记录 | 每日消费 
---- | --- | --- 
-👉 |<img width="200" src="https://github.com/Guan912/BookkeepingAPP/raw/master/app/src/main/res/jpg/add.jpg"/>|<img width="200" src="https://github.com/Guan912/BookkeepingAPP/raw/master/app/src/main/res/jpg/daily.jpg"/>
+> Refrence: **imooc.com**
+
+👇效果图
+
+<img width="200" src="https://github.com/Guan912/BookkeepingAPP/raw/master/app/src/main/res/jpg/add.jpg"/> <img width="200" src="https://github.com/Guan912/BookkeepingAPP/raw/master/app/src/main/res/jpg/daily.jpg"/>
 
 ## 小白后记
 😑其实就是买的手机内存太小，商店APP又要25M啊30M的<br>
@@ -13,4 +12,5 @@
 💪但是太简单还需要改进啦
 ### 一些资源啦
 [Markdown入门](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 [emoji收录](http://getemoji.com)
