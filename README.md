@@ -2,6 +2,8 @@
 A simple APP on Android ,for self use. 
 <br>Refrence:imooc
 <br>The final result:
-<br>![image](https://github.com/Guan912/BookkeepingAPP/raw/master/app/src/main/res/jpg/add.jpg =50x50)
+<br>
+<img width="200" src="https://github.com/Guan912/BookkeepingAPP/raw/master/app/src/main/res/jpg/add.jpg"/>
+<br>
+<img width="200" src="https://github.com/Guan912/BookkeepingAPP/raw/master/app/src/main/res/jpg/daily.jpg"/>
 
-<br>![image](https://github.com/Guan912/BookkeepingAPP/raw/master/app/src/main/res/jpg/daily.jpg )
